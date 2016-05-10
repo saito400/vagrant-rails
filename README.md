@@ -6,11 +6,10 @@ install vagrant
 
 https://www.vagrantup.com/
 
-install chef
-
-https://downloads.chef.io/chef-dk/mac/
-
 vagrant plugin install vagrant-omnibus
 
-vagrant plugin install vagrant-chef-zero
+vagrant plugin install vagrant-vbox-snapshot
 
+install itamae
+
+bundle install --path=vendor/bundle
