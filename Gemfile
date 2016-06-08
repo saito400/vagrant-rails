@@ -5,3 +5,6 @@ source "https://rubygems.org"
 # gem "rails"
 gem "itamae"
 
+gem 'itamae-plugin-recipe-rbenv'
+
+
