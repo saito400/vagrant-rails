@@ -16,6 +16,8 @@ bundle install --path=vendor/bundle
 
 ## run itamae
 
+### for Vagrant
 bundle exec itamae ssh --vagrant recipe.rb
 
-
+### for EC2
+bundle exec itamae ssh --host HOSTNAME -u ec2-user -i ~/.ssh/PRIVATE_KEY_FILE recipe.rb
