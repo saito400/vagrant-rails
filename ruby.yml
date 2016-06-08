@@ -4,3 +4,10 @@ rbenv:
     2.3.0
   versions:
     - 2.3.0
+
+rbenv-default-gems:
+  default-gems:
+    - bundler
+    - bcat ~>0.6
+    - rails --pre
+  install: true
