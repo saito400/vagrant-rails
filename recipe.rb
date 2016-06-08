@@ -1,6 +1,6 @@
 # coding: utf-8
 
-%w(git epel-release nginx gcc gcc-c++ openssl-devel readline-devel curl-devel expat-devel gettext-devel perl-devel zlib-devel).each do |pkg|
+%w(git epel-release nginx gcc gcc-c++ openssl-devel readline-devel curl-devel expat-devel gettext-devel perl-devel zlib-devel mysql-devel).each do |pkg|
   package pkg do
     action :install
   end
