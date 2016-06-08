@@ -1,7 +1,5 @@
 # vagrant-rails
 
-## log
-
 ## install vagrant
 
 https://www.vagrantup.com/
@@ -18,6 +16,8 @@ bundle install --path=vendor/bundle
 
 ### for Vagrant
 bundle exec itamae ssh --vagrant recipe.rb
+
+bundle exec itamae ssh --vagrant ruby.rb -y ruby.yml
 
 ### for EC2
 bundle exec itamae ssh --host HOSTNAME -u ec2-user -i ~/.ssh/PRIVATE_KEY_FILE recipe.rb
