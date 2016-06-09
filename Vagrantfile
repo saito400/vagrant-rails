@@ -1,6 +1,7 @@
 Vagrant.configure(2) do |config|
   config.vm.box = "bento/centos-7.2"
   config.vm.box_url = "https://atlas.hashicorp.com/bento/boxes/centos-7.2"
+  config.ssh.forward_agent = true
 
   config.vm.provider "virtualbox" do |vm|
     vm.gui = false
